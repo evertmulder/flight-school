@@ -5,6 +5,12 @@ resources:
     uri: https://github.com/evertmulder/flight-school
     branch: master
 
+- name: release
+  type: git
+  source:
+    uri: git@github.com:evertmulder/flight-school.git
+    branch: master
+
 jobs:
 - name: test-app
   plan:
